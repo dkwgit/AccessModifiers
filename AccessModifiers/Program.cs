@@ -10,7 +10,8 @@ internal class Greeter : IGreeter
     //    internal string IGreeter.Greet(string person)
     //
     // also does not work.
-    // What works is making it public or giving no access modifier.
+    //
+    // What works is making it public or giving no access modifier (also public).
     internal string Greet(string person)
 
     {
